@@ -79,10 +79,7 @@ class ListaDeContatosActivity : BaseActivity() {
                         onClickItemRecyclerView(it)
                     }
                     adapter!!.addDebt ={
-//                        showdialog(it)
-                        val intent = Intent(this, DevedorActivity::class.java)
-                        intent.putExtra("index", it.id)
-                        startActivity(intent)
+                        showdialog(it)
                     }
                     binding.recyclerView.adapter = adapter
                     binding.progressCircular.visibility = View.GONE
