@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_200">#1e212a</color>
+    <color name="primary_500">#454852</color>
+    <color name="primary_700">#000</color>
+    <color name="__secondary_200">#ccbbad</color>
+    <color name="secondary_200">#fff</color>
+    <color name="secondary_700">#fff</color>
+    <color name="__secondary_700">#ffeddd</color>
+    <color name="success">#84c784</color>
+    <color name="bronw">#6d4c41</color>
+    <color name="danger">#FFD32F2F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

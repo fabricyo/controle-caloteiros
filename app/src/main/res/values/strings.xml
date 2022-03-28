@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quem Deve</string>
+    <string name="txt_search">Buscar:</string>
+    <string name="txt_add">Adicionar</string>
+    <string name="brl_simbol">R$ </string>
+    <string name="label_detail_debt">Detalhes do calote</string>
+    <string name="btn_back">voltar</string>
+    <string name="label_share">Compartilhar</string>
+    <string name="label_debitos">Caloteiros</string>
+    <string name="label_add_debt">Adicionar caloteiro</string>
+    <string name="label_nome">Nome</string>
+    <string name="label_valor">Valor</string>
+    <string name="label_confirmar">Confirmar</string>
+    <string name="label_edit_debt">Editar</string>
+    <string name="label_delete_debt">Esquecer do calote</string>
+    <string name="label_cor">Cor</string>
+    <string name="chip_empty">--</string>
+    <string name="procurar_caloteiros">Procurar caloteiros</string>
+    <string name="lista_de_caloteiros">Lista de Caloteiros</string>
+</resources>

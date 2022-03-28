@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.fabricyo.quemdeve">
+
+    <application
+        android:name=".application.DevedorApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuemDeve">
+        <activity
+            android:name=".feature.devedordetails.view.DevedorDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.devedor.view.DevedorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.listadevedor.view.ListaDeContatosActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
