@@ -19,8 +19,7 @@ class DevedorViewModel(
             repository?.getDevedor(
                 idDevedor,
                 onSucesso = { devedor ->
-                    if(devedor == null) onError(Exception("Não foi possível completar a sua solicitação"))
-                    else onSucesso(devedor)
+                    onSucesso(devedor)
                 }, onError = {
                     onError(it)
                 }

@@ -87,12 +87,12 @@ class ListaDeContatosActivity : BaseActivity() {
                         Toast.makeText(this,"Buscando por $busca", Toast.LENGTH_SHORT).show()
                 }
             },
-            onError = { exception ->
+            onError = {
                 runOnUiThread {
                     AlertDialog.Builder(this)
                         .setTitle("Atenção")
                         .setMessage("Não foi possível recuperar os dados")
-                        .setPositiveButton("Ok") {alert, i ->
+                        .setPositiveButton("Ok") { alert, _ ->
                             alert.dismiss()
                         }
                 }
